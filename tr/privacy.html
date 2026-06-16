@@ -5,85 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tespit Gizlilik Politikası</title>
   <style>
-:root {
-  color-scheme: light dark;
-  --bg: #f5f7fb;
-  --card: rgba(255,255,255,.86);
-  --text: #111827;
-  --muted: #5b6472;
-  --border: rgba(17,24,39,.10);
-  --accent: #0a84ff;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #090b10;
-    --card: rgba(22,24,31,.86);
-    --text: #f5f7fb;
-    --muted: #a8b0bf;
-    --border: rgba(255,255,255,.12);
-    --accent: #64aaff;
-  }
-}
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
-  background: radial-gradient(circle at top, rgba(10,132,255,.18), transparent 32rem), var(--bg);
-  color: var(--text);
-  line-height: 1.62;
-}
-main {
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 48px 20px 72px;
-}
-.card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 28px;
-  padding: 32px;
-  box-shadow: 0 18px 60px rgba(0,0,0,.10);
-  backdrop-filter: blur(18px);
-}
-h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.1; margin: 0 0 12px; }
-h2 { margin-top: 32px; font-size: 1.35rem; }
-h3 { margin-top: 24px; font-size: 1.05rem; }
-p, li { color: var(--muted); }
-a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
-.badge {
-  display: inline-flex;
-  padding: 6px 12px;
-  border-radius: 999px;
-  background: rgba(10,132,255,.12);
-  color: var(--accent);
-  font-weight: 600;
-  margin-bottom: 18px;
-}
-.nav {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin: 24px 0 0;
-}
-.nav a {
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 8px 12px;
-  background: rgba(255,255,255,.08);
-}
-.footer {
-  margin-top: 32px;
-  font-size: .92rem;
-  color: var(--muted);
-}
-.notice {
-  padding: 16px 18px;
-  border-radius: 18px;
-  background: rgba(10,132,255,.10);
-  border: 1px solid rgba(10,132,255,.18);
-}
-ul { padding-left: 1.3rem; }
+:root{color-scheme:light dark;--bg:#f5f7fb;--card:rgba(255,255,255,.88);--text:#111827;--muted:#5b6472;--border:rgba(17,24,39,.10);--accent:#0a84ff}
+@media(prefers-color-scheme:dark){:root{--bg:#090b10;--card:rgba(22,24,31,.88);--text:#f5f7fb;--muted:#a8b0bf;--border:rgba(255,255,255,.12);--accent:#64aaff}}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",sans-serif;background:radial-gradient(circle at top,rgba(10,132,255,.18),transparent 32rem),var(--bg);color:var(--text);line-height:1.62}
+main{max-width:960px;margin:0 auto;padding:48px 20px 72px}.card{background:var(--card);border:1px solid var(--border);border-radius:28px;padding:32px;box-shadow:0 18px 60px rgba(0,0,0,.10);backdrop-filter:blur(18px)}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:0 0 12px}h2{margin-top:34px;font-size:1.35rem}h3{margin-top:24px;font-size:1.05rem}
+p,li{color:var(--muted)}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.badge{display:inline-flex;padding:6px 12px;border-radius:999px;background:rgba(10,132,255,.12);color:var(--accent);font-weight:700;margin-bottom:18px}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0 0}.nav a{border:1px solid var(--border);border-radius:999px;padding:8px 12px;background:rgba(255,255,255,.08)}
+.footer{margin-top:32px;font-size:.92rem;color:var(--muted)}.notice{padding:16px 18px;border-radius:18px;background:rgba(10,132,255,.10);border:1px solid rgba(10,132,255,.18)}
+ul{padding-left:1.3rem}.ok{padding:16px 18px;border-radius:18px;background:rgba(52,199,89,.10);border:1px solid rgba(52,199,89,.18)}
 </style>
 </head>
 <body>
@@ -96,56 +26,80 @@ ul { padding-left: 1.3rem; }
 
 <h2>1. Sorumlu Kişi</h2>
 <p>Bu uygulamadan sorumlu kişi:</p>
-<p>Esat Arslan<br>
-E-posta: <a href="mailto:sahinoglu2013@gmail.com">sahinoglu2013@gmail.com</a></p>
+<p>Esat Arslan<br>E-posta: <a href="mailto:e.arslan2025@gmail.com">e.arslan2025@gmail.com</a></p>
 
-<h2>2. Genel Bilgiler</h2>
-<p>Tespit, desteklenen araçlar için geliştirilmiş özel ve resmî olmayan bir gösterge paneli uygulamasıdır. Verilerinizin korunması önemlidir. Bu Gizlilik Politikası, uygulama ile bağlantılı olarak hangi verilerin işlenebileceğini açıklar.</p>
+<h2>2. Kısa Özet</h2>
+<p class="ok">Geliştirici olarak araç verilerinize, VIN numaranıza, konum verilerinize, Bluetooth bağlantınıza, özel araç anahtarınıza, uygulama ayarlarınıza veya yerel olarak saklanan içeriklere doğrudan erişimim yoktur. Tespit’in kendi kullanıcı hesabı sistemi, kendi backend’i, kendi bulut veritabanı, reklam sistemi veya takip sistemi yoktur.</p>
+<p>Birçok veri iPhone’unuzda yerel olarak kalır. Bazı işlevler Apple hizmetleri üzerinden çalışır; örneğin satın almalar/abonelikler için StoreKit, harita/rota için MapKit, Apple tanılama verileri veya kapak görseli araması için iTunes Search. Ayrıca Tesla veya Tesla hizmetleri; aracınız, Tesla hesabınız, Tesla uygulaması veya araç sistemleriyle ilgili kendi verilerini bağımsız olarak işleyebilir. Bu verileri doğrudan bir veritabanında göremem.</p>
 
 <h2>3. Tesla ile Resmî Bir Bağlantı Yoktur</h2>
 <p>Tespit resmî bir Tesla uygulaması değildir. Uygulama Tesla tarafından işletilmez, desteklenmez, denetlenmez veya sponsor edilmez. Tüm marka ve isimler ilgili sahiplerine aittir.</p>
 
-<h2>4. İşlenebilecek Veriler</h2>
-<p>Kullandığınız özelliklere ve verdiğiniz izinlere bağlı olarak aşağıdaki veriler işlenebilir:</p>
+<h2>4. Cihazınızda Yerel Olarak Saklanan Veriler</h2>
+<p>Kullanıma bağlı olarak aşağıdaki veriler cihazınızda yerel olarak saklanabilir veya işlenebilir:</p>
 <ul>
-  <li><strong>Konum verileri:</strong> harita, navigasyon ve gösterge paneli özellikleri için.</li>
-  <li><strong>Bluetooth/cihaz yakınlığı verileri:</strong> yerel bağlantı veya yakınlık özellikleri için.</li>
-  <li><strong>Araçla ilgili bilgiler:</strong> uygulamada kullandığınız takdirde durum, gösterge paneli veya konfor bilgileri.</li>
-  <li><strong>Medya bilgileri:</strong> kapak görseli veya medya bilgileri aranırken başlık, sanatçı veya albüm gibi bilgiler.</li>
-  <li><strong>Satın alma verileri:</strong> uygulama içi satın almalar ve aboneliklere ilişkin bilgiler Apple tarafından işlenir.</li>
-  <li><strong>Tanılama verileri:</strong> geliştiricilerle paylaşmayı kabul ettiyseniz Apple tarafından çökme ve tanılama verileri sağlanabilir.</li>
+  <li><strong>Araç VIN numarası ve araç adı:</strong> yerel kurulum ve araç seçimi için.</li>
+  <li><strong>Özel araç anahtarı:</strong> iOS Keychain içinde yerel ve cihaza bağlı olarak saklanır.</li>
+  <li><strong>Eşleştirme durumu:</strong> bir aracın daha önce kurulup kurulmadığını anlamak için.</li>
+  <li><strong>Uygulama ayarları:</strong> dil, düzen, birimler, harita stili, tasarım, Premium/promosyon kilidi ve gösterim seçenekleri.</li>
+  <li><strong>Kullanım sırasında Bluetooth ve araç durumu:</strong> gösterge panelinde görüntülemek için.</li>
+  <li><strong>Live Activity içerikleri:</strong> etkinleştirilmişse Kilit Ekranı/Dynamic Island üzerinde gösterge bilgileri için.</li>
 </ul>
+<p>Bu yerel veriler geliştirici olarak bana aktarılmaz.</p>
 
-<h2>5. İşleme Amacı</h2>
-<p>Veriler; uygulama özelliklerini sunmak, uygulamayı geliştirmek, hataları analiz etmek, harita ve gösterge paneli özelliklerini etkinleştirmek ve Premium özellikleri açmak için kullanılır.</p>
+<h2>5. Apple Üzerinden İşlenen Veriler</h2>
+<p>Uygulama Apple hizmetlerini kullanabilir:</p>
+<ul>
+  <li><strong>StoreKit:</strong> uygulama içi satın almalar, abonelikler, satın alma geri yükleme ve satın alma durumu için.</li>
+  <li><strong>MapKit ve Apple rota hesaplama:</strong> harita, konum ve navigasyon özellikleri için.</li>
+  <li><strong>iTunes Search:</strong> başlık, sanatçı veya albüm bilgisine göre medya kapak görseli aramak için.</li>
+  <li><strong>Apple tanılama verileri:</strong> geliştiricilerle paylaşmayı kabul ettiyseniz çökme ve tanılama verileri Apple üzerinden bana sağlanabilir.</li>
+  <li><strong>App Store Connect:</strong> Apple bana indirmeler, satışlar, gelirler, abonelikler ve genel uygulama istatistikleri gibi toplu bilgiler gösterebilir.</li>
+</ul>
+<p>Bu hizmetler Apple tarafından işlenir. Canlı konumunuz, araç bağlantınız, özel anahtarınız veya yerel uygulama ayarlarınız gibi ham verileri görmem.</p>
 
-<h2>6. Reklam ve Takip Yoktur</h2>
-<p>Uygulama kişisel verileri satmaz ve kişiselleştirilmiş reklam için veri kullanmaz. Başka şirketlere ait uygulama ve web siteleri arasında takip yapılmaz; gelecekteki bir sürümde açıkça belirtilmediği sürece bu durum değişmez.</p>
+<h2>6. Tesla Tarafından İşlenen Veriler</h2>
+<p>Bir Tesla aracı, Tesla uygulaması, Tesla hesabı veya Tesla araç hizmetlerini kullandığınızda Tesla, Tespit’ten bağımsız olarak kendi verilerini işleyebilir. Tesla ayarlarınıza ve kullanımınıza bağlı olarak bu veriler araç verileri, tanılama verileri, konum/rota bilgileri, uygulama ve hesap verileri, güvenlik verileri, yazılım/servis verileri veya araç sistem verileri olabilir.</p>
+<p>Tespit bunun için kendi backend’ini işletmez ve bu Tesla verilerini geliştirici olarak bana aktarmaz. Tesla hesabınıza, Tesla uygulamanıza, Tesla sunucularına, Tesla araç geçmişinize veya Tesla’nın doğrudan araçtan ya da Tesla hizmetleri üzerinden işlediği verilere erişimim yoktur.</p>
+<p>Bu işleme için Tesla’nın kendi gizlilik bilgileri geçerlidir. Tesla tarafından sunulduğu ölçüde veri paylaşımı ve gizlilik seçeneklerini Tesla hesabınızda, Tesla uygulamasında veya araç içinde kontrol edebilirsiniz.</p>
 
-<h2>7. Üçüncü Taraf Hizmetleri</h2>
-<p>Uygulama, uygulama içi satın almalar için StoreKit, haritalar için MapKit, güvenli yerel saklama için Keychain ve Apple tanılama verileri gibi Apple hizmetlerini kullanabilir. Google Maps veya başka harita hizmetleri entegre edilirse, bu sağlayıcıların kendi gizlilik kuralları geçerli olabilir.</p>
 
-<h2>8. Saklama</h2>
-<p>Birçok uygulama verisi cihazınızda yerel olarak saklanır. Satın alma veya abonelikler için gerekli veriler Apple tarafından işlenir. Kesin saklama süresi ilgili özelliğe ve sistem ayarlarına bağlıdır.</p>
+<h2>7. İsteğe Bağlı Google Maps Entegrasyonu</h2>
+<p>İncelenen projede Google Maps yalnızca isteğe bağlı entegrasyon olarak hazırlanmıştır. Google Maps SDK eklenmediği ve API anahtarı yapılandırılmadığı sürece aktif harita sağlayıcısı Apple Maps olarak kalır. Google Maps daha sonra etkinleştirilirse harita verileri Google tarafından işlenebilir. Bu durumda Gizlilik Politikası yeniden kontrol edilmeli ve gerekirse güncellenmelidir.</p>
 
-<h2>9. Haklarınız</h2>
-<p>Geçerli hukuka bağlı olarak erişim, düzeltme, silme veya işlemenin kısıtlanmasını talep edebilirsiniz. Talepler için yukarıdaki e-posta adresini kullanabilirsiniz.</p>
+<h2>8. Bluetooth ve Araç Bağlantısı</h2>
+<p>Bluetooth, desteklenen araçla yerel bağlantı kurmak için kullanılır. Bağlantı gösterge paneli ve eşleştirme için kullanılır. Özel anahtarlar iOS Keychain içinde yerel olarak kalır. Geliştirici olarak bu anahtarlara erişemem.</p>
 
-<h2>10. Değişiklikler</h2>
+<h2>9. Konum Verileri</h2>
+<p>Konum verileri harita, rota ve gösterge paneli özellikleri için kullanılır. Uygulama yalnızca “Uygulamayı Kullanırken” izni ister. Konum verileri geliştiriciye ait bir backend’e aktarılmaz.</p>
+
+<h2>10. Pano ve Tesla Deep Link</h2>
+<p>Uygulama bir düğme aracılığıyla panodan metin yapıştırabilir, örneğin VIN numarası. Ayrıca Tesla uygulamasını deep link ile açabilir. Bu durum bana veri aktarmaz.</p>
+
+<h2>11. E-posta Desteği</h2>
+<p>Destek için e-posta gönderirseniz, gönüllü olarak gönderdiğiniz bilgiler işlenir; örneğin e-posta adresiniz, sorun açıklamanız, ekran görüntüleri veya teknik bilgiler. Lütfen özel araç anahtarlarını, giriş bilgilerini veya hassas bilgileri göndermeyin.</p>
+
+<h2>12. Reklam Yok, Takip Yok, Veri Satışı Yok</h2>
+<p>Mevcut projeye göre uygulama reklam ağı, takip sistemi, Firebase Analytics veya geliştiriciye ait analiz backend’i kullanmaz. Kişisel veriler satılmaz.</p>
+
+<h2>13. Haklarınız</h2>
+<p>Geçerli hukuka bağlı olarak erişim, düzeltme, silme veya işlemenin kısıtlanmasını talep edebilirsiniz. Talepler için yukarıdaki e-posta adresini kullanabilirsiniz. Yerel olarak saklanan uygulama verileri çoğu durumda uygulamayı cihazdan kaldırarak silinebilir.</p>
+
+<h2>14. Değişiklikler</h2>
 <p>Bu Gizlilik Politikası; özellikler, hizmetler veya yasal gereklilikler değişirse güncellenebilir.</p>
 
 <p class="footer">© 2026 Esat Arslan. Tüm hakları saklıdır.</p>
 
       
-            <div class="nav">
-              <a href="../de/support.html">Support DE</a>
-              <a href="../de/privacy.html">Datenschutz DE</a>
-              <a href="../en/support.html">Support EN</a>
-              <a href="../en/privacy.html">Privacy EN</a>
-              <a href="../tr/support.html">Destek TR</a>
-              <a href="../tr/privacy.html">Gizlilik TR</a>
-            </div>
-            
+<div class="nav">
+  <a href="../de/support.html">Support DE</a>
+  <a href="../de/privacy.html">Datenschutz DE</a>
+  <a href="../en/support.html">Support EN</a>
+  <a href="../en/privacy.html">Privacy EN</a>
+  <a href="../tr/support.html">Destek TR</a>
+  <a href="../tr/privacy.html">Gizlilik TR</a>
+</div>
+
     </section>
   </main>
 </body>

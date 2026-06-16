@@ -5,85 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tespit Support</title>
   <style>
-:root {
-  color-scheme: light dark;
-  --bg: #f5f7fb;
-  --card: rgba(255,255,255,.86);
-  --text: #111827;
-  --muted: #5b6472;
-  --border: rgba(17,24,39,.10);
-  --accent: #0a84ff;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #090b10;
-    --card: rgba(22,24,31,.86);
-    --text: #f5f7fb;
-    --muted: #a8b0bf;
-    --border: rgba(255,255,255,.12);
-    --accent: #64aaff;
-  }
-}
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
-  background: radial-gradient(circle at top, rgba(10,132,255,.18), transparent 32rem), var(--bg);
-  color: var(--text);
-  line-height: 1.62;
-}
-main {
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 48px 20px 72px;
-}
-.card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 28px;
-  padding: 32px;
-  box-shadow: 0 18px 60px rgba(0,0,0,.10);
-  backdrop-filter: blur(18px);
-}
-h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.1; margin: 0 0 12px; }
-h2 { margin-top: 32px; font-size: 1.35rem; }
-h3 { margin-top: 24px; font-size: 1.05rem; }
-p, li { color: var(--muted); }
-a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
-.badge {
-  display: inline-flex;
-  padding: 6px 12px;
-  border-radius: 999px;
-  background: rgba(10,132,255,.12);
-  color: var(--accent);
-  font-weight: 600;
-  margin-bottom: 18px;
-}
-.nav {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin: 24px 0 0;
-}
-.nav a {
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 8px 12px;
-  background: rgba(255,255,255,.08);
-}
-.footer {
-  margin-top: 32px;
-  font-size: .92rem;
-  color: var(--muted);
-}
-.notice {
-  padding: 16px 18px;
-  border-radius: 18px;
-  background: rgba(10,132,255,.10);
-  border: 1px solid rgba(10,132,255,.18);
-}
-ul { padding-left: 1.3rem; }
+:root{color-scheme:light dark;--bg:#f5f7fb;--card:rgba(255,255,255,.88);--text:#111827;--muted:#5b6472;--border:rgba(17,24,39,.10);--accent:#0a84ff}
+@media(prefers-color-scheme:dark){:root{--bg:#090b10;--card:rgba(22,24,31,.88);--text:#f5f7fb;--muted:#a8b0bf;--border:rgba(255,255,255,.12);--accent:#64aaff}}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",sans-serif;background:radial-gradient(circle at top,rgba(10,132,255,.18),transparent 32rem),var(--bg);color:var(--text);line-height:1.62}
+main{max-width:960px;margin:0 auto;padding:48px 20px 72px}.card{background:var(--card);border:1px solid var(--border);border-radius:28px;padding:32px;box-shadow:0 18px 60px rgba(0,0,0,.10);backdrop-filter:blur(18px)}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:0 0 12px}h2{margin-top:34px;font-size:1.35rem}h3{margin-top:24px;font-size:1.05rem}
+p,li{color:var(--muted)}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.badge{display:inline-flex;padding:6px 12px;border-radius:999px;background:rgba(10,132,255,.12);color:var(--accent);font-weight:700;margin-bottom:18px}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0 0}.nav a{border:1px solid var(--border);border-radius:999px;padding:8px 12px;background:rgba(255,255,255,.08)}
+.footer{margin-top:32px;font-size:.92rem;color:var(--muted)}.notice{padding:16px 18px;border-radius:18px;background:rgba(10,132,255,.10);border:1px solid rgba(10,132,255,.18)}
+ul{padding-left:1.3rem}.ok{padding:16px 18px;border-radius:18px;background:rgba(52,199,89,.10);border:1px solid rgba(52,199,89,.18)}
 </style>
 </head>
 <body>
@@ -96,25 +26,34 @@ ul { padding-left: 1.3rem; }
 
 <h2>1. Contact</h2>
 <p>For questions, feedback, issues, or support requests, please contact:</p>
-<p><a href="mailto:sahinoglu2013@gmail.com">sahinoglu2013@gmail.com</a></p>
+<p><a href="mailto:e.arslan2025@gmail.com">e.arslan2025@gmail.com</a></p>
 
-<h2>2. Frequently Asked Questions</h2>
-<h3>2.1 Is Tespit an official Tesla app?</h3>
+<h2>2. No Developer Access to Your App Data</h2>
+<p class="ok">As the developer, I do not have direct access to your vehicle data, VIN, location data, Bluetooth connections, private vehicle key, app settings, or locally stored content. The app does not use its own user account system, backend, or server dashboard that would allow me to view your data.</p>
+<p>Many data items remain locally on your iPhone. Purchases, subscriptions, App Store billing, App Store diagnostics, and certain Apple services are processed by Apple. I can only see information you voluntarily send by email and aggregated information provided by Apple, such as downloads, sales, or shared crash/diagnostic reports.</p>
+
+<h2>3. Apple and Tesla as Separate Services</h2>
+<p>Apple and Tesla may independently process their own data when you use their products, services, or apps. Examples include Apple ID, App Store purchases, subscriptions, map/route services, diagnostics, Tesla vehicle data, Tesla app services, vehicle diagnostics, or settings in your Tesla account or vehicle.</p>
+<p>This processing does not happen through a Tespit-owned system. I do not have access to your Apple ID, payment data, Tesla account data, Tesla app data, Tesla server data, or data that Tesla processes directly from the vehicle or through Tesla services.</p>
+
+
+<h2>4. Frequently Asked Questions</h2>
+<h3>4.1 Is Tespit an official Tesla app?</h3>
 <p>No. Tespit is an independent, unofficial app. It is not operated, sponsored, reviewed, or officially supported by Tesla.</p>
 
-<h3>2.2 Can the app control my vehicle?</h3>
-<p>The app is intended as a dashboard and information app. Depending on the app version, certain data may be displayed. Features may only be used with your own vehicle or with explicit authorization.</p>
+<h3>4.2 Can the app control my vehicle?</h3>
+<p>The app is intended as a dashboard and information app. Depending on the app version, certain data may be displayed through a local Bluetooth connection. Features may only be used with your own vehicle or with explicit authorization.</p>
 
-<h3>2.3 Why does the app request location or Bluetooth permissions?</h3>
-<p>Location data may be used for maps, navigation, or dashboard features. Bluetooth may be required for local connection or vehicle proximity features. These permissions are used only for app functionality.</p>
+<h3>4.3 Why does the app request location or Bluetooth permissions?</h3>
+<p>Location data is used for maps, navigation, and dashboard features. Bluetooth is used for the direct local connection to the vehicle. These permissions are used for app functionality and are not personally visible to me as the developer.</p>
 
-<h3>2.4 Why are some Premium features not working?</h3>
+<h3>4.4 Why are some Premium features not working?</h3>
 <p>Please check whether your in-app purchase or subscription is active on your Apple ID. Purchases and subscriptions are processed by Apple. You may restore purchases in the app if this feature is available.</p>
 
-<h2>3. In-App Purchases and Subscriptions</h2>
+<h2>5. In-App Purchases and Subscriptions</h2>
 <p>Tespit may offer optional Premium features through in-app purchases or subscriptions. Billing, renewal, and cancellation are handled by Apple and your Apple ID.</p>
 
-<h2>4. Report an Issue</h2>
+<h2>6. Report an Issue</h2>
 <p>When reporting an issue, please include the following if possible:</p>
 <ul>
   <li>iPhone model</li>
@@ -123,22 +62,23 @@ ul { padding-left: 1.3rem; }
   <li>Short description of the problem</li>
   <li>Optional: screenshot or screen recording</li>
 </ul>
+<p>Please do not send private vehicle keys, login credentials, or sensitive information by email.</p>
 
-<h2>5. Safety Notice</h2>
+<h2>7. Safety Notice</h2>
 <p>Do not use the app while driving if it could distract you. Always follow applicable traffic laws and safety rules.</p>
 
 <p class="footer">© 2026 Esat Arslan. All rights reserved.</p>
 
       
-            <div class="nav">
-              <a href="../de/support.html">Support DE</a>
-              <a href="../de/privacy.html">Datenschutz DE</a>
-              <a href="../en/support.html">Support EN</a>
-              <a href="../en/privacy.html">Privacy EN</a>
-              <a href="../tr/support.html">Destek TR</a>
-              <a href="../tr/privacy.html">Gizlilik TR</a>
-            </div>
-            
+<div class="nav">
+  <a href="../de/support.html">Support DE</a>
+  <a href="../de/privacy.html">Datenschutz DE</a>
+  <a href="../en/support.html">Support EN</a>
+  <a href="../en/privacy.html">Privacy EN</a>
+  <a href="../tr/support.html">Destek TR</a>
+  <a href="../tr/privacy.html">Gizlilik TR</a>
+</div>
+
     </section>
   </main>
 </body>

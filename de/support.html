@@ -5,85 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tespit Support</title>
   <style>
-:root {
-  color-scheme: light dark;
-  --bg: #f5f7fb;
-  --card: rgba(255,255,255,.86);
-  --text: #111827;
-  --muted: #5b6472;
-  --border: rgba(17,24,39,.10);
-  --accent: #0a84ff;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #090b10;
-    --card: rgba(22,24,31,.86);
-    --text: #f5f7fb;
-    --muted: #a8b0bf;
-    --border: rgba(255,255,255,.12);
-    --accent: #64aaff;
-  }
-}
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
-  background: radial-gradient(circle at top, rgba(10,132,255,.18), transparent 32rem), var(--bg);
-  color: var(--text);
-  line-height: 1.62;
-}
-main {
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 48px 20px 72px;
-}
-.card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 28px;
-  padding: 32px;
-  box-shadow: 0 18px 60px rgba(0,0,0,.10);
-  backdrop-filter: blur(18px);
-}
-h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.1; margin: 0 0 12px; }
-h2 { margin-top: 32px; font-size: 1.35rem; }
-h3 { margin-top: 24px; font-size: 1.05rem; }
-p, li { color: var(--muted); }
-a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
-.badge {
-  display: inline-flex;
-  padding: 6px 12px;
-  border-radius: 999px;
-  background: rgba(10,132,255,.12);
-  color: var(--accent);
-  font-weight: 600;
-  margin-bottom: 18px;
-}
-.nav {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin: 24px 0 0;
-}
-.nav a {
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 8px 12px;
-  background: rgba(255,255,255,.08);
-}
-.footer {
-  margin-top: 32px;
-  font-size: .92rem;
-  color: var(--muted);
-}
-.notice {
-  padding: 16px 18px;
-  border-radius: 18px;
-  background: rgba(10,132,255,.10);
-  border: 1px solid rgba(10,132,255,.18);
-}
-ul { padding-left: 1.3rem; }
+:root{color-scheme:light dark;--bg:#f5f7fb;--card:rgba(255,255,255,.88);--text:#111827;--muted:#5b6472;--border:rgba(17,24,39,.10);--accent:#0a84ff}
+@media(prefers-color-scheme:dark){:root{--bg:#090b10;--card:rgba(22,24,31,.88);--text:#f5f7fb;--muted:#a8b0bf;--border:rgba(255,255,255,.12);--accent:#64aaff}}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",sans-serif;background:radial-gradient(circle at top,rgba(10,132,255,.18),transparent 32rem),var(--bg);color:var(--text);line-height:1.62}
+main{max-width:960px;margin:0 auto;padding:48px 20px 72px}.card{background:var(--card);border:1px solid var(--border);border-radius:28px;padding:32px;box-shadow:0 18px 60px rgba(0,0,0,.10);backdrop-filter:blur(18px)}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:0 0 12px}h2{margin-top:34px;font-size:1.35rem}h3{margin-top:24px;font-size:1.05rem}
+p,li{color:var(--muted)}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.badge{display:inline-flex;padding:6px 12px;border-radius:999px;background:rgba(10,132,255,.12);color:var(--accent);font-weight:700;margin-bottom:18px}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0 0}.nav a{border:1px solid var(--border);border-radius:999px;padding:8px 12px;background:rgba(255,255,255,.08)}
+.footer{margin-top:32px;font-size:.92rem;color:var(--muted)}.notice{padding:16px 18px;border-radius:18px;background:rgba(10,132,255,.10);border:1px solid rgba(10,132,255,.18)}
+ul{padding-left:1.3rem}.ok{padding:16px 18px;border-radius:18px;background:rgba(52,199,89,.10);border:1px solid rgba(52,199,89,.18)}
 </style>
 </head>
 <body>
@@ -96,25 +26,34 @@ ul { padding-left: 1.3rem; }
 
 <h2>1. Kontakt</h2>
 <p>Bei Fragen, Feedback, Problemen oder Supportanfragen kannst du dich per E-Mail melden:</p>
-<p><a href="mailto:sahinoglu2013@gmail.com">sahinoglu2013@gmail.com</a></p>
+<p><a href="mailto:e.arslan2025@gmail.com">e.arslan2025@gmail.com</a></p>
 
-<h2>2. Häufige Fragen</h2>
-<h3>2.1 Ist Tespit eine offizielle Tesla-App?</h3>
+<h2>2. Kein Entwicklerzugriff auf deine App-Daten</h2>
+<p class="ok">Ich als Entwickler habe keinen direkten Zugriff auf deine Fahrzeugdaten, VIN, Standortdaten, Bluetooth-Verbindungen, privaten Fahrzeugschlüssel, App-Einstellungen oder lokal gespeicherten Inhalte. Die App hat kein eigenes Benutzerkonto, kein eigenes Backend und kein eigenes Server-Dashboard, über das ich deine Daten einsehen könnte.</p>
+<p>Viele Daten bleiben lokal auf deinem iPhone. Käufe, Abos, App-Store-Abrechnung, App-Store-Diagnosen und bestimmte Apple-Dienste werden über Apple verarbeitet. Ich kann nur die Informationen sehen, die du mir freiwillig per E-Mail sendest, sowie von Apple bereitgestellte, zusammengefasste App-Store-Informationen, zum Beispiel Verkäufe, Downloads oder freigegebene Crash-/Diagnosedaten.</p>
+
+<h2>3. Apple und Tesla als eigene Dienste</h2>
+<p>Apple und Tesla können unabhängig von mir eigene Daten verarbeiten, wenn du deren Produkte, Dienste oder Apps nutzt. Beispiele sind Apple-ID, App-Store-Käufe, Abos, Karten-/Routendienste, Diagnosedaten, Tesla-Fahrzeugdaten, Tesla-App-Dienste, Fahrzeugdiagnosen oder Einstellungen in deinem Tesla-Konto bzw. Fahrzeug.</p>
+<p>Diese Verarbeitung erfolgt nicht über ein eigenes System von Tespit. Ich habe keinen Zugriff auf deine Apple-ID, Zahlungsdaten, Tesla-Konto-Daten, Tesla-App-Daten, Tesla-Serverdaten oder Daten, die Tesla direkt vom Fahrzeug oder über Tesla-Dienste verarbeitet.</p>
+
+
+<h2>4. Häufige Fragen</h2>
+<h3>4.1 Ist Tespit eine offizielle Tesla-App?</h3>
 <p>Nein. Tespit ist eine unabhängige, inoffizielle App. Sie wird nicht von Tesla betrieben, gesponsert, geprüft oder offiziell unterstützt.</p>
 
-<h3>2.2 Kann die App mein Fahrzeug steuern?</h3>
-<p>Die App ist als Dashboard- und Informations-App gedacht. Je nach App-Version können bestimmte Daten dargestellt werden. Funktionen dürfen nur mit einem eigenen Fahrzeug oder mit ausdrücklicher Berechtigung genutzt werden.</p>
+<h3>4.2 Kann die App mein Fahrzeug steuern?</h3>
+<p>Die App ist als Dashboard- und Informations-App gedacht. Je nach App-Version können bestimmte Daten über eine lokale Bluetooth-Verbindung dargestellt werden. Funktionen dürfen nur mit einem eigenen Fahrzeug oder mit ausdrücklicher Berechtigung genutzt werden.</p>
 
-<h3>2.3 Warum werden Standort- oder Bluetooth-Berechtigungen benötigt?</h3>
-<p>Standortdaten können für Karten-, Navigations- oder Dashboardfunktionen genutzt werden. Bluetooth kann für lokale Verbindungs- oder Fahrzeugnähe-Funktionen erforderlich sein. Die Berechtigungen werden nur für App-Funktionen verwendet.</p>
+<h3>4.3 Warum werden Standort- oder Bluetooth-Berechtigungen benötigt?</h3>
+<p>Standortdaten werden für Karten-, Navigations- und Dashboardfunktionen genutzt. Bluetooth wird für die direkte lokale Verbindung zum Fahrzeug benötigt. Diese Berechtigungen werden für App-Funktionen verwendet und nicht von mir persönlich eingesehen.</p>
 
-<h3>2.4 Warum funktionieren manche Premium-Funktionen nicht?</h3>
+<h3>4.4 Warum funktionieren manche Premium-Funktionen nicht?</h3>
 <p>Bitte prüfe, ob dein In-App-Kauf oder Abo in deiner Apple-ID aktiv ist. Käufe und Abos werden über Apple abgewickelt. Du kannst Käufe in der App erneut wiederherstellen, sofern diese Funktion angeboten wird.</p>
 
-<h2>3. In-App-Käufe und Abos</h2>
+<h2>5. In-App-Käufe und Abos</h2>
 <p>Tespit kann optionale Premium-Funktionen über In-App-Käufe oder Abos anbieten. Die Abrechnung, Verlängerung und Kündigung erfolgt über Apple und deine Apple-ID.</p>
 
-<h2>4. Fehler melden</h2>
+<h2>6. Fehler melden</h2>
 <p>Bitte sende bei einem Fehler möglichst folgende Angaben mit:</p>
 <ul>
   <li>iPhone-Modell</li>
@@ -123,22 +62,23 @@ ul { padding-left: 1.3rem; }
   <li>Kurze Beschreibung des Problems</li>
   <li>Optional: Screenshot oder Bildschirmaufnahme</li>
 </ul>
+<p>Bitte sende keine privaten Fahrzeugschlüssel, keine Zugangsdaten und keine sensiblen Informationen per E-Mail.</p>
 
-<h2>5. Sicherheitshinweis</h2>
+<h2>7. Sicherheitshinweis</h2>
 <p>Nutze die App nicht während der Fahrt, wenn dich dies ablenken könnte. Beachte jederzeit die geltenden Verkehrsregeln und Sicherheitsvorschriften.</p>
 
 <p class="footer">© 2026 Esat Arslan. Alle Rechte vorbehalten.</p>
 
       
-            <div class="nav">
-              <a href="../de/support.html">Support DE</a>
-              <a href="../de/privacy.html">Datenschutz DE</a>
-              <a href="../en/support.html">Support EN</a>
-              <a href="../en/privacy.html">Privacy EN</a>
-              <a href="../tr/support.html">Destek TR</a>
-              <a href="../tr/privacy.html">Gizlilik TR</a>
-            </div>
-            
+<div class="nav">
+  <a href="../de/support.html">Support DE</a>
+  <a href="../de/privacy.html">Datenschutz DE</a>
+  <a href="../en/support.html">Support EN</a>
+  <a href="../en/privacy.html">Privacy EN</a>
+  <a href="../tr/support.html">Destek TR</a>
+  <a href="../tr/privacy.html">Gizlilik TR</a>
+</div>
+
     </section>
   </main>
 </body>

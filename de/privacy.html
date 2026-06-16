@@ -5,85 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Datenschutzerklärung für Tespit</title>
   <style>
-:root {
-  color-scheme: light dark;
-  --bg: #f5f7fb;
-  --card: rgba(255,255,255,.86);
-  --text: #111827;
-  --muted: #5b6472;
-  --border: rgba(17,24,39,.10);
-  --accent: #0a84ff;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #090b10;
-    --card: rgba(22,24,31,.86);
-    --text: #f5f7fb;
-    --muted: #a8b0bf;
-    --border: rgba(255,255,255,.12);
-    --accent: #64aaff;
-  }
-}
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
-  background: radial-gradient(circle at top, rgba(10,132,255,.18), transparent 32rem), var(--bg);
-  color: var(--text);
-  line-height: 1.62;
-}
-main {
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 48px 20px 72px;
-}
-.card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 28px;
-  padding: 32px;
-  box-shadow: 0 18px 60px rgba(0,0,0,.10);
-  backdrop-filter: blur(18px);
-}
-h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.1; margin: 0 0 12px; }
-h2 { margin-top: 32px; font-size: 1.35rem; }
-h3 { margin-top: 24px; font-size: 1.05rem; }
-p, li { color: var(--muted); }
-a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
-.badge {
-  display: inline-flex;
-  padding: 6px 12px;
-  border-radius: 999px;
-  background: rgba(10,132,255,.12);
-  color: var(--accent);
-  font-weight: 600;
-  margin-bottom: 18px;
-}
-.nav {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin: 24px 0 0;
-}
-.nav a {
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 8px 12px;
-  background: rgba(255,255,255,.08);
-}
-.footer {
-  margin-top: 32px;
-  font-size: .92rem;
-  color: var(--muted);
-}
-.notice {
-  padding: 16px 18px;
-  border-radius: 18px;
-  background: rgba(10,132,255,.10);
-  border: 1px solid rgba(10,132,255,.18);
-}
-ul { padding-left: 1.3rem; }
+:root{color-scheme:light dark;--bg:#f5f7fb;--card:rgba(255,255,255,.88);--text:#111827;--muted:#5b6472;--border:rgba(17,24,39,.10);--accent:#0a84ff}
+@media(prefers-color-scheme:dark){:root{--bg:#090b10;--card:rgba(22,24,31,.88);--text:#f5f7fb;--muted:#a8b0bf;--border:rgba(255,255,255,.12);--accent:#64aaff}}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",sans-serif;background:radial-gradient(circle at top,rgba(10,132,255,.18),transparent 32rem),var(--bg);color:var(--text);line-height:1.62}
+main{max-width:960px;margin:0 auto;padding:48px 20px 72px}.card{background:var(--card);border:1px solid var(--border);border-radius:28px;padding:32px;box-shadow:0 18px 60px rgba(0,0,0,.10);backdrop-filter:blur(18px)}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:0 0 12px}h2{margin-top:34px;font-size:1.35rem}h3{margin-top:24px;font-size:1.05rem}
+p,li{color:var(--muted)}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.badge{display:inline-flex;padding:6px 12px;border-radius:999px;background:rgba(10,132,255,.12);color:var(--accent);font-weight:700;margin-bottom:18px}
+.nav{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0 0}.nav a{border:1px solid var(--border);border-radius:999px;padding:8px 12px;background:rgba(255,255,255,.08)}
+.footer{margin-top:32px;font-size:.92rem;color:var(--muted)}.notice{padding:16px 18px;border-radius:18px;background:rgba(10,132,255,.10);border:1px solid rgba(10,132,255,.18)}
+ul{padding-left:1.3rem}.ok{padding:16px 18px;border-radius:18px;background:rgba(52,199,89,.10);border:1px solid rgba(52,199,89,.18)}
 </style>
 </head>
 <body>
@@ -96,56 +26,80 @@ ul { padding-left: 1.3rem; }
 
 <h2>1. Verantwortlicher</h2>
 <p>Verantwortlich für diese App ist:</p>
-<p>Esat Arslan<br>
-E-Mail: <a href="mailto:sahinoglu2013@gmail.com">sahinoglu2013@gmail.com</a></p>
+<p>Esat Arslan<br>E-Mail: <a href="mailto:e.arslan2025@gmail.com">e.arslan2025@gmail.com</a></p>
 
-<h2>2. Allgemeines</h2>
-<p>Tespit ist eine private, inoffizielle Dashboard-App für unterstützte Fahrzeuge. Der Schutz deiner Daten ist wichtig. Diese Datenschutzerklärung erklärt, welche Daten im Zusammenhang mit der App verarbeitet werden können.</p>
+<h2>2. Kurzfassung</h2>
+<p class="ok">Ich als Entwickler habe keinen direkten Zugriff auf deine Fahrzeugdaten, VIN, Standortdaten, Bluetooth-Verbindung, privaten Fahrzeugschlüssel, App-Einstellungen oder lokal gespeicherten Inhalte. Tespit hat kein eigenes Benutzerkonto, kein eigenes Backend, keine eigene Cloud-Datenbank, keine Werbung und kein Tracking-System.</p>
+<p>Viele Daten bleiben lokal auf deinem iPhone. Bestimmte Funktionen laufen über Apple-Dienste, zum Beispiel StoreKit für Käufe/Abos, MapKit für Karten/Routen, Apple-Diagnosedaten oder die iTunes-Suche für Coverbilder. Zusätzlich können Tesla bzw. Tesla-Dienste eigene Daten im Zusammenhang mit deinem Fahrzeug, deinem Tesla-Konto, der Tesla-App oder Fahrzeugsystemen verarbeiten. Ich kann diese Daten nicht direkt in einer Datenbank einsehen.</p>
 
 <h2>3. Keine offizielle Verbindung zu Tesla</h2>
 <p>Tespit ist keine offizielle App von Tesla. Die App wird nicht von Tesla betrieben, gesponsert, geprüft oder offiziell unterstützt. Alle Marken und Namen gehören den jeweiligen Rechteinhabern.</p>
 
-<h2>4. Welche Daten verarbeitet werden können</h2>
-<p>Je nach genutzten Funktionen und erteilten Berechtigungen können folgende Daten verarbeitet werden:</p>
+<h2>4. Lokal auf deinem Gerät gespeicherte Daten</h2>
+<p>Je nach Nutzung können folgende Daten lokal auf deinem Gerät gespeichert oder verarbeitet werden:</p>
 <ul>
-  <li><strong>Standortdaten:</strong> für Karten-, Navigations- und Dashboardfunktionen.</li>
-  <li><strong>Bluetooth-/Gerätenähe-Daten:</strong> für lokale Verbindungs- oder Nähefunktionen.</li>
-  <li><strong>Fahrzeugbezogene Informationen:</strong> zum Beispiel Status-, Dashboard- oder Komfortinformationen, sofern du diese in der App nutzt.</li>
-  <li><strong>Medieninformationen:</strong> zum Beispiel Titel, Künstler oder Album, wenn Coverbilder oder Medieninformationen gesucht werden.</li>
-  <li><strong>Kaufdaten:</strong> Informationen zu In-App-Käufen und Abos werden über Apple verarbeitet.</li>
-  <li><strong>Diagnosedaten:</strong> Absturz- und Diagnosedaten können über Apple bereitgestellt werden, wenn du dem Teilen mit Entwicklern zugestimmt hast.</li>
+  <li><strong>Fahrzeug-VIN und Fahrzeugname:</strong> zur lokalen Einrichtung und Auswahl deines Fahrzeugs.</li>
+  <li><strong>Privater Fahrzeugschlüssel:</strong> wird lokal und gerätegebunden im iOS-Keychain gespeichert.</li>
+  <li><strong>Kopplungsstatus:</strong> zum Erkennen, ob ein Fahrzeug bereits eingerichtet wurde.</li>
+  <li><strong>App-Einstellungen:</strong> zum Beispiel Sprache, Layout, Einheiten, Kartenstil, Design, Premium-/Promo-Freischaltung und Anzeigeoptionen.</li>
+  <li><strong>Bluetooth- und Fahrzeugstatus während der Nutzung:</strong> zur Anzeige im Dashboard.</li>
+  <li><strong>Live-Activity-Inhalte:</strong> sofern aktiviert, zur Anzeige von Dashboardinformationen auf Sperrbildschirm/Dynamic Island.</li>
 </ul>
+<p>Diese lokalen Daten werden nicht an mich als Entwickler übertragen.</p>
 
-<h2>5. Zweck der Verarbeitung</h2>
-<p>Die Daten werden verwendet, um App-Funktionen bereitzustellen, die App zu verbessern, Fehler zu analysieren, Karten- und Dashboardfunktionen zu ermöglichen und Premium-Funktionen freizuschalten.</p>
+<h2>5. Über Apple verarbeitete Daten</h2>
+<p>Die App kann Apple-Dienste verwenden:</p>
+<ul>
+  <li><strong>StoreKit:</strong> zur Abwicklung von In-App-Käufen, Abos, Wiederherstellung von Käufen und Kaufstatus.</li>
+  <li><strong>MapKit und Apple-Routenberechnung:</strong> für Karten-, Standort- und Navigationsfunktionen.</li>
+  <li><strong>iTunes-Suche:</strong> zur Suche von Medien-Coverbildern anhand von Titel, Künstler oder Album.</li>
+  <li><strong>Apple-Diagnosen:</strong> Crash- und Diagnosedaten können mir über Apple bereitgestellt werden, wenn du dem Teilen mit Entwicklern zugestimmt hast.</li>
+  <li><strong>App Store Connect:</strong> Apple kann mir zusammengefasste Informationen wie Downloads, Verkäufe, Umsätze, Abos und allgemeine App-Statistiken anzeigen.</li>
+</ul>
+<p>Diese Dienste werden von Apple verarbeitet. Ich sehe keine Rohdaten wie deinen Live-Standort, deine Fahrzeugverbindung, deinen privaten Schlüssel oder deine lokal gespeicherten App-Einstellungen.</p>
 
-<h2>6. Keine Werbung und kein Tracking</h2>
-<p>Die App verkauft keine personenbezogenen Daten und nutzt keine Daten für personalisierte Werbung. Tracking über Apps und Webseiten anderer Unternehmen findet nicht statt, sofern dies nicht ausdrücklich in einer zukünftigen Version angegeben wird.</p>
+<h2>6. Durch Tesla verarbeitete Daten</h2>
+<p>Wenn du ein Tesla-Fahrzeug, die Tesla-App, ein Tesla-Konto oder Tesla-Fahrzeugdienste nutzt, kann Tesla unabhängig von Tespit eigene Daten verarbeiten. Dazu können je nach Tesla-Einstellungen und Nutzung zum Beispiel Fahrzeugdaten, Diagnosedaten, Standort-/Routeninformationen, App- und Kontodaten, Sicherheitsdaten, Software-/Servicedaten oder Fahrzeugsystemdaten gehören.</p>
+<p>Tespit betreibt dafür kein eigenes Backend und leitet diese Tesla-Daten nicht an mich als Entwickler weiter. Ich habe keinen Zugriff auf dein Tesla-Konto, deine Tesla-App, Tesla-Server, Tesla-Fahrzeughistorie oder Daten, die Tesla direkt aus dem Fahrzeug oder über Tesla-Dienste verarbeitet.</p>
+<p>Für diese Verarbeitung gelten die Datenschutzinformationen von Tesla. Du kannst Datenfreigaben und Datenschutzoptionen in deinem Tesla-Konto, in der Tesla-App oder im Fahrzeug prüfen, soweit Tesla diese Einstellungen anbietet.</p>
 
-<h2>7. Drittanbieter und Dienste</h2>
-<p>Die App kann Dienste von Apple verwenden, zum Beispiel StoreKit für In-App-Käufe, MapKit für Karten, Keychain für sichere lokale Speicherung sowie Apple-Diagnosedaten. Falls Google Maps oder andere Kartendienste eingebunden werden, können diese Anbieter eigene Datenschutzregeln anwenden.</p>
 
-<h2>8. Speicherung</h2>
-<p>Viele App-Daten werden lokal auf deinem Gerät gespeichert. Daten, die für Käufe oder Abos erforderlich sind, werden über Apple verarbeitet. Die genaue Speicherdauer hängt von der jeweiligen Funktion und den Systemeinstellungen ab.</p>
+<h2>7. Optionale Google-Maps-Integration</h2>
+<p>Im geprüften Projekt ist Google Maps nur optional vorbereitet. Solange kein Google Maps SDK eingebunden und kein API-Key hinterlegt ist, bleibt Apple Maps der aktive Kartenanbieter. Wenn Google Maps später aktiviert wird, können Kartendaten durch Google verarbeitet werden. Dann sollte diese Datenschutzerklärung erneut geprüft und gegebenenfalls ergänzt werden.</p>
 
-<h2>9. Deine Rechte</h2>
-<p>Je nach anwendbarem Recht kannst du Auskunft, Berichtigung, Löschung oder Einschränkung der Verarbeitung verlangen. Für Anfragen kannst du die oben genannte E-Mail-Adresse verwenden.</p>
+<h2>8. Bluetooth und Fahrzeugverbindung</h2>
+<p>Bluetooth wird genutzt, um eine lokale Verbindung zum unterstützten Fahrzeug herzustellen. Die Verbindung dient der Dashboard-Anzeige und Kopplung. Die privaten Schlüssel bleiben lokal im iOS-Keychain. Ich als Entwickler kann diese Schlüssel nicht einsehen.</p>
 
-<h2>10. Änderungen</h2>
+<h2>9. Standortdaten</h2>
+<p>Standortdaten werden für Karten-, Routen- und Dashboardfunktionen genutzt. Die App fordert nur die Berechtigung „Beim Verwenden der App“ an. Der Standort wird nicht an ein eigenes Entwickler-Backend übertragen.</p>
+
+<h2>10. Zwischenablage und Tesla-Deep-Link</h2>
+<p>Die App kann über eine Schaltfläche Text aus der Zwischenablage einfügen, zum Beispiel die VIN. Außerdem kann sie die Tesla-App per Deep-Link öffnen. Dadurch werden keine Daten an mich übertragen.</p>
+
+<h2>11. Support per E-Mail</h2>
+<p>Wenn du Support per E-Mail kontaktierst, verarbeite ich die Informationen, die du freiwillig sendest, zum Beispiel deine E-Mail-Adresse, Problembeschreibung, Screenshots oder technische Angaben. Bitte sende keine privaten Fahrzeugschlüssel, Zugangsdaten oder sensiblen Informationen.</p>
+
+<h2>12. Keine Werbung, kein Tracking, kein Datenverkauf</h2>
+<p>Die App nutzt nach derzeitigem Stand kein Werbenetzwerk, kein Tracking-System, kein Firebase Analytics und kein eigenes Analyse-Backend. Personenbezogene Daten werden nicht verkauft.</p>
+
+<h2>13. Deine Rechte</h2>
+<p>Je nach anwendbarem Recht kannst du Auskunft, Berichtigung, Löschung oder Einschränkung der Verarbeitung verlangen. Für Anfragen kannst du die oben genannte E-Mail-Adresse verwenden. Lokal gespeicherte App-Daten kannst du in vielen Fällen durch Entfernen der App vom Gerät löschen.</p>
+
+<h2>14. Änderungen</h2>
 <p>Diese Datenschutzerklärung kann aktualisiert werden, wenn sich Funktionen, Dienste oder rechtliche Anforderungen ändern.</p>
 
 <p class="footer">© 2026 Esat Arslan. Alle Rechte vorbehalten.</p>
 
       
-            <div class="nav">
-              <a href="../de/support.html">Support DE</a>
-              <a href="../de/privacy.html">Datenschutz DE</a>
-              <a href="../en/support.html">Support EN</a>
-              <a href="../en/privacy.html">Privacy EN</a>
-              <a href="../tr/support.html">Destek TR</a>
-              <a href="../tr/privacy.html">Gizlilik TR</a>
-            </div>
-            
+<div class="nav">
+  <a href="../de/support.html">Support DE</a>
+  <a href="../de/privacy.html">Datenschutz DE</a>
+  <a href="../en/support.html">Support EN</a>
+  <a href="../en/privacy.html">Privacy EN</a>
+  <a href="../tr/support.html">Destek TR</a>
+  <a href="../tr/privacy.html">Gizlilik TR</a>
+</div>
+
     </section>
   </main>
 </body>
