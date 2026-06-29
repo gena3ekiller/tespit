@@ -3,10 +3,50 @@
 ## 1. Deutsch
 
 ### Support-URL
-https://esat-o-arslan.github.io/tespit/de/support.html
+https://gena3ekiller.github.io/tespit/de/support.html
 
 ### Datenschutz-URL
-https://esat-o-arslan.github.io/tespit/de/privacy.html
+https://gena3ekiller.github.io/tespit/de/privacy.html
+
+### Marketing-URL
+https://gena3ekiller.github.io/tespit/
+
+### Untertitel
+Dein Fahrzeug. Dein Cockpit.
+
+### Werbetext
+Live-Fahrzeugdaten, Navigation, Medien und mehrere Cockpit-Layouts – individuell konfigurierbar für iPhone und iPad.
+
+### Beschreibung
+Tespit verwandelt dein iPhone oder iPad in ein individuell anpassbares Fahrzeug-Dashboard. Verbinde ein unterstütztes Fahrzeug lokal per Bluetooth und behalte wichtige Fahr-, Navigations- und Komfortinformationen übersichtlich im Blick.
+
+DEIN COCKPIT
+• Live-Anzeige von Tempo, Leistung, Akkustand und Reichweite
+• Mehrere Cockpit-Layouts für unterschiedliche Fahrsituationen
+• Individuell konfigurierbare Farben, Instrumente und Module
+• Optimierte Ansichten für Hoch- und Querformat sowie iPad
+
+NAVIGATION UND MEDIEN
+• Karten- und Routenansicht mit Apple Maps
+• Übersichtliche Navigationshinweise direkt im Dashboard
+• Medieninformationen und Wiedergabestatus im Cockpit
+
+FAHRZEUGSTATUS
+• Lokale Bluetooth-Verbindung zum unterstützten Fahrzeug
+• Fahrzeugprofil, Farbe und Verbindungsstatus
+• Anzeige von Reifendruck, Innen- und Außentemperatur, Kilometerstand und weiteren verfügbaren Fahrzeugdaten
+
+DATENSCHUTZ UND SICHERHEIT
+• Kein eigenes Benutzerkonto und kein Entwickler-Backend
+• Private Fahrzeugschlüssel werden lokal und gerätegebunden im iOS-Keychain gespeichert
+• Keine Werbung und kein Tracking durch Tespit
+
+Optionale Premium-Funktionen und zusätzliche Cockpit-Layouts sind über In-App-Käufe oder Abonnements erhältlich. Abrechnung und Verwaltung erfolgen über Apple.
+
+Tespit ist eine unabhängige, inoffizielle App und wird nicht von Tesla betrieben, gesponsert, geprüft oder unterstützt. Alle Marken und Namen gehören ihren jeweiligen Rechteinhabern. Die App ersetzt keine Fahrzeuganzeigen oder Sicherheitssysteme. Verwende sie nur, wenn dies sicher und rechtlich zulässig ist.
+
+### Schlüsselwörter
+Tesla,Dashboard,Cockpit,Navigation,Fahrzeug,Bluetooth,Tempo,Reichweite,Akku,Route,Live-Daten
 
 ### Copyright
 © 2026 Esat Arslan. Alle Rechte vorbehalten.
@@ -14,6 +54,15 @@ https://esat-o-arslan.github.io/tespit/de/privacy.html
 ### Kategorie
 Primäre Kategorie: Navigation
 Sekundäre Kategorie: Dienstprogramme
+
+### Preis
+Kostenlos (Preisstufe 0). Premium-Funktionen werden separat über In-App-Käufe oder Abonnements angeboten.
+
+### App-Datenschutz
+Empfohlener Ausgangspunkt: „Es werden keine Daten erfasst“, sofern die veröffentlichte Version weiterhin kein eigenes Backend, kein Tracking-SDK und keine aktivierte Drittanbieter-Analyse enthält. Die Angaben müssen mit dem tatsächlich eingereichten Build übereinstimmen.
+
+### Inhaltsrechte
+Die App zeigt oder verwendet Inhalte und Marken Dritter, unter anderem Tesla-bezogene Bezeichnungen/Fahrzeugdarstellungen, Apple Maps und Medien-Cover. In App Store Connect daher nicht pauschal „Nein“ auswählen. Vor der Bestätigung muss geklärt sein, dass für sämtliche Drittinhalte die erforderlichen Rechte, Lizenzen oder zulässigen Nutzungsgrundlagen vorliegen.
 
 ### Altersfreigabe
 Empfehlung: 4+
@@ -60,10 +109,10 @@ ch.esat.tespit.premium.yearly
 ## 2. English
 
 ### Support URL
-https://esat-o-arslan.github.io/tespit/en/support.html
+https://gena3ekiller.github.io/tespit/en/support.html
 
 ### Privacy Policy URL
-https://esat-o-arslan.github.io/tespit/en/privacy.html
+https://gena3ekiller.github.io/tespit/en/privacy.html
 
 ### Copyright
 © 2026 Esat Arslan. All rights reserved.
@@ -117,10 +166,10 @@ ch.esat.tespit.premium.yearly
 ## 3. Türkçe
 
 ### Destek URL’si
-https://esat-o-arslan.github.io/tespit/tr/support.html
+https://gena3ekiller.github.io/tespit/tr/support.html
 
 ### Gizlilik Politikası URL’si
-https://esat-o-arslan.github.io/tespit/tr/privacy.html
+https://gena3ekiller.github.io/tespit/tr/privacy.html
 
 ### Telif hakkı
 © 2026 Esat Arslan. Tüm hakları saklıdır.
