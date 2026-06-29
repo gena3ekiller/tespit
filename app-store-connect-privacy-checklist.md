@@ -12,7 +12,6 @@ Gefunden:
 - Lokale Speicherung: UserDefaults für App-Einstellungen, Fahrzeug-VIN, Fahrzeugname, Kopplungsstatus, Promo-Freischaltung
 - Sichere lokale Speicherung: iOS-Keychain für privaten Fahrzeugschlüssel
 - Apple-Dienste: StoreKit, MapKit/MKDirections, iTunes Search für Coverbilder, Apple-Diagnosen nur falls vom Nutzer freigegeben
-- Optional vorbereitet: Google Maps SDK/API-Key, aktuell ohne API-Key
 - Kein eigenes Backend gefunden
 - Kein Firebase gefunden
 - Kein Werbe-SDK gefunden
@@ -74,7 +73,7 @@ Wichtig: Apple unterscheidet zwischen „lokal verarbeitet“ und „gesammelt�
 
 Empfehlung:
 - Tracking: Nein
-- Standort: Nur angeben, wenn App Store Connect wegen MapKit/Routen/Google Maps danach fragt oder wenn du Daten selbst/über Drittanbieter sammelst. In deiner eigenen App kein eigenes Backend.
+- Standort: Nur angeben, wenn App Store Connect wegen MapKit/Routen danach fragt oder wenn du Daten selbst/über Drittanbieter sammelst. In deiner eigenen App kein eigenes Backend.
 - Käufe: Apple/StoreKit verarbeitet Käufe. Du siehst nur App-Store-Connect-Auswertungen.
 - Diagnose: Wenn Apple Crash-/Diagnosedaten bereitstellt und Nutzer zugestimmt haben.
 - Supportdaten: Nur wenn Nutzer freiwillig per E-Mail Supportanfragen senden.
@@ -105,12 +104,7 @@ Im Code sind aber StoreKit-Produkte enthalten:
 
 Vor dem App-Store-Upload solltest du README oder App-Funktion angleichen.
 
-## 7. Optionaler Google-Maps-Hinweis
-
-Google Maps ist im Code nur optional vorbereitet. Aktuell ist der API-Key leer. Falls du Google Maps später wirklich aktivierst, musst du Datenschutz, Privacy Manifest/SDK-Angaben und App-Store-Connect-Datenerfassung erneut prüfen.
-
-
-## 8. Ergänzung Apple und Tesla
+## 7. Ergänzung Apple und Tesla
 
 Neu ergänzt:
 - Apple kann als eigener Dienstanbieter Daten verarbeiten, z. B. Apple-ID, Käufe, Abos, App Store Connect, Diagnosen, Karten-/Routendienste und iTunes Search.
