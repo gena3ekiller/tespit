@@ -24,24 +24,24 @@ Gefunden:
 
 ### Deutsch
 Support:
-https://esat-o-arslan.github.io/tespit/de/support.html
+https://gena3ekiller.github.io/tespit/de/support.html
 
 Datenschutz:
-https://esat-o-arslan.github.io/tespit/de/privacy.html
+https://gena3ekiller.github.io/tespit/de/privacy.html
 
 ### English
 Support:
-https://esat-o-arslan.github.io/tespit/en/support.html
+https://gena3ekiller.github.io/tespit/en/support.html
 
 Privacy Policy:
-https://esat-o-arslan.github.io/tespit/en/privacy.html
+https://gena3ekiller.github.io/tespit/en/privacy.html
 
 ### Türkçe
 Destek:
-https://esat-o-arslan.github.io/tespit/tr/support.html
+https://gena3ekiller.github.io/tespit/tr/support.html
 
 Gizlilik Politikası:
-https://esat-o-arslan.github.io/tespit/tr/privacy.html
+https://gena3ekiller.github.io/tespit/tr/privacy.html
 
 ## 3. Wichtiger Zusatz für App Store Connect – Datenerfassung
 
